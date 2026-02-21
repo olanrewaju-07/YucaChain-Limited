@@ -58,8 +58,8 @@ export default function Advisors() {
                             <p className="text-sm font-semibold mb-2 text-gray-600 dark:text-gray-400 uppercase tracking-wider">{advisor.role}</p>
                             <p className="text-green-600 dark:text-green-500 font-bold mb-6">{advisor.org}</p>
 
-                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed italic flex-grow mb-8">
-                                &quot;{advisor.value}&quot;
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed flex-grow mb-8">
+                                {advisor.value}
                             </p>
 
                             <div className="flex justify-center space-x-6 border-t border-gray-200 dark:border-gray-800 pt-6 mt-auto w-full">
