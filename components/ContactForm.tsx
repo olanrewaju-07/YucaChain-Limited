@@ -50,7 +50,7 @@ export default function ContactForm() {
                     >
                         <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight">Get In Touch</h2>
                         <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
-                            Interested in partnering, investing, or joining the YucaChain ecosystem? We would love to hear from you.
+                            Interested in partnering, investing, or joining the ecosystem? We would love to hear from you.
                         </p>
                         <div className="p-6 bg-green-50 dark:bg-green-900/20 rounded-2xl border border-green-100 dark:border-green-800/50">
                             <h3 className="font-bold text-green-900 dark:text-green-400 mb-2">Direct Inquiries</h3>

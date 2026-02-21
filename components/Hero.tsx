@@ -4,6 +4,13 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
+
+    const scrollToSection = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <section id="top" className="relative w-full min-h-[100svh] flex items-center justify-center overflow-hidden pt-24 pb-12">
             {/* Background Parallax Image with Overlay */}
@@ -44,6 +51,7 @@ export default function Hero() {
                 >
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                         <Button
+                            onClick={() => scrollToSection('about')}
                             className="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white rounded-full px-8 py-6 sm:px-10 sm:py-7 text-base sm:text-lg shadow-[0_0_20px_rgba(34,197,94,0.4)] font-semibold border-none animate-[pulse_3s_ease-in-out_infinite] hover:animate-none transition-all duration-300"
                         >
                             Explore Our Ecosystem
@@ -52,7 +60,7 @@ export default function Hero() {
 
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                         <Button
-                            variant="outline"
+                            onClick={() => window.open('https://chat.whatsapp.com/JXaHxCV3G489gJHMC4OeXR', '_blank')}
                             className="w-full sm:w-auto rounded-full px-8 py-6 sm:px-10 sm:py-7 text-base sm:text-lg border-2 border-white/60 text-white hover:bg-white/10 hover:border-white font-semibold transition-all duration-300 backdrop-blur-md bg-black/20 shadow-lg"
                         >
                             Join the Network

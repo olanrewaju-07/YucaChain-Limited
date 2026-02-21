@@ -48,7 +48,8 @@ export default function Header() {
                                 </button>
                             ))}
                             <ThemeToggle />
-                            <Button onClick={() => scrollToSection('contact')} className="bg-green-600 hover:bg-green-700 text-white dark:bg-green-700 dark:hover:bg-green-600 rounded-full px-6 transition-all duration-300 shadow-sm hover:shadow-md">
+                            <Button onClick={() => window.open('https://chat.whatsapp.com/JXaHxCV3G489gJHMC4OeXR', '_blank')}
+                                className="bg-green-600 hover:bg-green-700 text-white dark:bg-green-700 dark:hover:bg-green-600 rounded-full px-6 transition-all duration-300 shadow-sm hover:shadow-md">
                                 Join the Network
                             </Button>
                         </div>
@@ -81,7 +82,7 @@ export default function Header() {
                             </button>
                         ))}
                         <div className="px-3 pt-4">
-                            <Button onClick={() => scrollToSection('contact')} className="w-full bg-green-600 hover:bg-green-700 text-white rounded-full py-6 text-lg">
+                            <Button onClick={() => window.open('https://chat.whatsapp.com/YOUR_GROUP_LINK_HERE', '_blank')} className="w-full bg-green-600 hover:bg-green-700 text-white rounded-full py-6 text-lg">
                                 Join the Network
                             </Button>
                         </div>

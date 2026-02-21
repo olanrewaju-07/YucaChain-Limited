@@ -16,7 +16,7 @@ export default function Partners() {
         <section className="py-16 bg-gray-50 dark:bg-transparent overflow-hidden border-y border-gray-100 dark:border-gray-800">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center bg-gray-50 dark:bg-transparent">
                 <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-6">
-                    Our Partners
+                    Backed By
                 </h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
                     We collaborate with institutions, foundations, and innovation platforms committed to strengthening Africa’s food systems.

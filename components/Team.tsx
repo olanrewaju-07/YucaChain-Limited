@@ -7,7 +7,7 @@ const teamData = [
     {
         name: "Abdulmumin Solihu",
         role: "Chief Executive Officer",
-        bio: "Agricultural and Biosystems Engineer with a  of experience in agritech. Abdulmumin leads our strategic vision to transform Africa's cassava supply chain into a digital-first ecosystem.",
+        bio: "Agricultural and Biosystems Engineer with a lot of experience in agritech. Abdulmumin leads our strategic vision to transform Africa's cassava supply chain into a digital-first ecosystem.",
         image: "abdulmumin.png",
         linkedin: "https://www.linkedin.com/in/abdulmuminsolihu",
         email: "mailto:abdulmuminsolihu@gmail.com",
