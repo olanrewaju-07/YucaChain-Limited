@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'YucaChain',
     images: [
       {
-        url: 'https://yucachain.com/og-image.jpg',
+        url: '/Logo.png',
         width: 1200,
         height: 630,
         alt: 'YucaChain Ecosystem',
@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     ],
     locale: 'en_US',
     type: 'website',
+  },
+  icons: {
+    icon: '/Logo.png',
+    apple: '/Logo.png',
   },
 };
 
@@ -42,13 +46,13 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "YucaChain Limited",
               "url": "https://yucachain.com",
-              "logo": "https://yucachain.com/logo.png",
+              "logo": "/Logo.png",
               "description": "Powering Africa's Cassava Economy Through Technology.",
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+234-XXX-XXX-XXXX",
                 "contactType": "customer service",
-                "email": "info@yucachain.com"
+                "email": "yucachain@gmail.com"
               },
               "sameAs": [
                 "https://www.linkedin.com/company/yucachain",
