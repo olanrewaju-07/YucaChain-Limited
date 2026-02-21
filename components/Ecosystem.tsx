@@ -73,7 +73,7 @@ export default function Ecosystem() {
                 </div>
 
                 {/* Animated Ecosystem Diagram Layer */}
-                <div className="relative w-full max-w-5xl mx-auto h-[400px] mb-24 rounded-3xl bg-white dark:bg-gray-950 shadow-2xl border border-gray-100 dark:border-gray-800 p-8 flex flex-col md:flex-row items-center justify-between overflow-hidden">
+                <div className="relative w-full max-w-5xl mx-auto h-auto md:h-[400px] mb-24 rounded-3xl bg-white dark:bg-gray-950 shadow-2xl border border-gray-100 dark:border-gray-800 p-8 flex flex-col md:flex-row items-center justify-between md:overflow-hidden gap-10 md:gap-0">
                     {/* SVG Connector Lines */}
                     <svg className="absolute inset-0 w-full h-full pointer-events-none z-0 hidden md:block" style={{ filter: 'drop-shadow(0px 4px 6px rgba(34, 197, 94, 0.2))' }}>
                         <motion.path
@@ -121,10 +121,10 @@ export default function Ecosystem() {
                     {componentsList.map((comp, idx) => (
                         <motion.div
                             key={comp.name}
-                            className={`relative z-10 flex flex-col items-center p-6 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-50 dark:border-gray-800 transform cursor-pointer w-full md:w-64 mb-6 md:mb-0 ${idx === 1 ? 'md:-translate-y-16' : idx === 2 ? 'md:translate-y-16' : ''}`}
+                            className={`relative z-10 flex flex-col items-center p-8 bg-white dark:bg-gray-900 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-800 transform cursor-pointer w-full max-w-sm mx-auto md:max-w-none md:w-64 ${idx === 1 ? 'md:-translate-y-16' : idx === 2 ? 'md:translate-y-16' : ''}`}
                             initial={{ opacity: 0, scale: 0.8 }}
                             whileInView={{ opacity: 1, scale: 1 }}
-                            whileHover={{ scale: 1.05, translateY: -5, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)", borderColor: "#22c55e" }}
+                            whileHover={{ scale: 1.05, translateY: -5, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: idx * 0.2 }}
                         >
