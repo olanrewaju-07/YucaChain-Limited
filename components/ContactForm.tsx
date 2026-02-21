@@ -16,9 +16,12 @@ export default function ContactForm() {
         setLoading(true);
 
         try {
-            const res = await fetch("/api/contact", {
+            const res = await fetch("https://formsubmit.co/ajax/yucachain@gmail.com", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
                 body: JSON.stringify(formData)
             });
 
@@ -51,7 +54,7 @@ export default function ContactForm() {
                         </p>
                         <div className="p-6 bg-green-50 dark:bg-green-900/20 rounded-2xl border border-green-100 dark:border-green-800/50">
                             <h3 className="font-bold text-green-900 dark:text-green-400 mb-2">Direct Inquiries</h3>
-                            <p className="text-green-800 dark:text-green-500">info@yucachain.com</p>
+                            <p className="text-green-800 dark:text-green-500">yucachain@gmail.com</p>
                         </div>
                     </motion.div>
 

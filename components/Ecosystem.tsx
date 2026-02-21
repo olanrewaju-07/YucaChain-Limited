@@ -68,7 +68,7 @@ export default function Ecosystem() {
                         transition={{ duration: 0.6, delay: 0.3 }}
                         className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed"
                     >
-                        Your ecosystem is composed of three foundational pillars that do not stand alone—they communicate continuously to power Africa's Cassava Economy.
+                        A closed-loop system designed to stabilize supply, verify quality, and eliminate post-harvest losses.
                     </motion.p>
                 </div>
 

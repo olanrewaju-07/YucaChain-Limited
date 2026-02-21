@@ -8,7 +8,7 @@ const products = [
     {
         id: "yucachain",
         title: "YucaChain App",
-        description: "The YucaChain App empowers farmers, agents, and buyers with an integrated digital workflow.",
+        description: "The digital pulse of our network. Our platform connects farm-gate supply with real-time industrial demand. Features end-to-end traceability, transparent pricing, and data-driven logistics to ensure every ton finds its market.",
         features: [
             "Farm registration",
             "Yield tracking",
@@ -20,8 +20,8 @@ const products = [
     },
     {
         id: "yucavault",
-        title: "YucaVault",
-        description: "YucaVault is an off-grid, mobile cooling system designed to safely transport and preserve cassava post-harvest, drastically reducing spoilage and extending shelf life.",
+        title: "YucaVault (The IoT Storage)",
+        description: "Engineering the end of rot. YucaVault is an IoT-enabled, solar-powered unit that regulates temperature and humidity to arrest starch degradation. We extend cassava shelf life from 48 hours to several weeks.",
         features: [
             "Solar-powered off-grid cooling",
             "Extends cassava shelf life",
@@ -33,8 +33,8 @@ const products = [
     },
     {
         id: "yucahub",
-        title: "YucaHub",
-        description: "YucaHub connects processors, agents, and buyers into one powerful marketplace, ensuring high scalability.",
+        title: "YucaHub (Aggregation & Certification)",
+        description: "The physical trust-layer of the value chain. YucaHubs are community-based centers for grading, quality verification, and bulk-loading, ensuring industrial processors receive standardized, factory-ready raw materials.",
         features: [
             "Aggregation",
             "Logistics tracking",

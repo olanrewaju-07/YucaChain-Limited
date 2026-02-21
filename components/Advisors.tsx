@@ -5,26 +5,23 @@ import { Linkedin, Mail } from "lucide-react";
 
 const advisors = [
     {
-        name: "Prof. Ojo Adewale",
-        role: "Agricultural Economist",
-        org: "African Development Bank",
-        value: "Guiding our structural approach to macroeconomic impact and financial inclusion metrics.",
-        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop"
+        name: "Engr. (Dr.) Olanrewaju Taofiq Olayinka",
+        role: "Extension Specialist and Lecturer",
+        org: "National Agricultural Extension and Research Liaison Services (NAERLS)",
+        value: "Guiding our outreach approach to enhance farmer education, adoption of digital tools, and the effective delivery of agricultural extension services.",
+        image: "/olanrewaju.jpeg",
+        linkedin: "https://www.linkedin.com/in/taofiq-olanrewaju-136ba023",
+        email: "mailto:taofiqolanrewaju13@yahoo.com"
     },
     {
-        name: "Sarah Jenkins",
-        role: "Supply Chain Advisor",
-        org: "Global Food Logistics",
-        value: "Advising on international export strategies and optimization of the aggregation network.",
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+        name: "Engr. (Dr.) Michael Ayodele Omodara",
+        role: "Assistant Director, Research",
+        org: "Nigerian Stored Products Research Institute (NSPRI)",
+        value: "Providing expert insights into post-harvest crop management, storage technologies, and strategies to minimize losses across the value chain.",
+        image: "/omolara.jpeg",
+        linkedin: "https://linkedin.com/",
+        email: "mailto:maomodara@nspri.gov.ng"
     },
-    {
-        name: "Emmanuel Osei",
-        role: "Fintech Strategy",
-        org: "Finclusion Africa",
-        value: "Strategic oversight over YucaVault's microfinance architecture and digital payments.",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
-    }
 ];
 
 export default function Advisors() {
@@ -66,10 +63,10 @@ export default function Advisors() {
                             </p>
 
                             <div className="flex justify-center space-x-6 border-t border-gray-200 dark:border-gray-800 pt-6 mt-auto w-full">
-                                <a href="#" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 hover:scale-110 transition-all duration-300">
+                                <a href={advisor.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 hover:scale-110 transition-all duration-300">
                                     <Linkedin className="w-6 h-6" />
                                 </a>
-                                <a href="#" className="text-gray-400 hover:text-green-600 hover:scale-110 transition-all duration-300">
+                                <a href={advisor.email} className="text-gray-400 hover:text-green-600 hover:scale-110 transition-all duration-300">
                                     <Mail className="w-6 h-6" />
                                 </a>
                             </div>

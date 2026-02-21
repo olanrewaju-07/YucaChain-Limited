@@ -5,17 +5,17 @@ import { motion } from "framer-motion";
 const futureProducts = [
     {
         title: "YucaMills",
-        desc: "YucaMills will integrate processing facilities into our digital ecosystem — enabling transparent production tracking, capacity management, and structured supply distribution.",
+        desc: " Advanced milling facilities located at the source to convert fresh tubers into high-quality starch, flour, and ethanol with zero transit-waste.",
         image: "/YucaMill.jpeg"
     },
     {
         title: "YucaFoods",
-        desc: "YucaFoods will bring high-quality cassava-based consumer products to market — backed by traceable sourcing and digital transparency.",
+        desc: "Bridging the gap between the farm and the table with packaged, safe, and nutritious cassava-based staples for the modern African kitchen.",
         image: "/YucaFood.jpg"
     },
     {
         title: "YucaExports",
-        desc: "YucaExports will enable structured export of African cassava products to international markets — creating global trade opportunities for local farmers and processors.",
+        desc: "Taking Nigerian excellence to the world. Leveraging our traceability data to meet international food safety standards for global industrial markets.",
         image: "/YucaExport.png"
     }
 ];
@@ -39,7 +39,7 @@ export default function ComingSoon() {
                         </div>
                         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight">Expanding the Ecosystem</h2>
                         <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl mx-auto">
-                            YucaChain is continually evolving. We are expanding across the full cassava value chain to complete the loop from farm to global table.
+                            We are expanding our footprint from preservation to high-value processing and global trade.
                         </p>
                     </motion.div>
                 </div>

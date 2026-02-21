@@ -5,24 +5,48 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
     {
-        q: "What is YucaChain?",
-        a: "YucaChain is an integrated digital ecosystem connecting Africa’s cassava value chain."
+        q: "What exactly is YucaChain?",
+        a: "YucaChain is an integrated ecosystem designed to eliminate post-harvest losses in the cassava value chain. It combines IoT-powered storage (YucaVault), physical aggregation centers (YucaHub), and a digital marketplace (YucaChain App) to connect farmers directly to industrial buyers."
     },
     {
         q: "How can farmers join?",
         a: "Farmers can register through the YucaChain App or partner agents."
     },
     {
-        q: "Is YucaVault secure?",
-        a: "Yes. YucaVault uses industry-standard encryption and secure financial infrastructure to ensure the safety of all transactions."
+        q: "How does YucaVault keep cassava fresh for longer than 48 hours?",
+        a: "Traditional cassava spoils within 48–72 hours due to physiological deterioration. YucaVault uses proprietary IoT technology to regulate temperature and humidity, slowing down the biological breakdown of the tubers and extending shelf life for several weeks to prevent"
     },
     {
-        q: "Do you operate outside Nigeria?",
-        a: "Expansion plans are currently underway across multiple African countries to broaden our agricultural impact."
+        q: "What is the role of a YucaHub?",
+        a: "YucaHubs serve as community aggregation and certification centers. They ensure that all cassava collected from farmers is properly graded, verified for quality, and safely handled before being delivered to industrial processors, ensuring high food safety standards."
     },
     {
-        q: "How can investors or partners collaborate?",
-        a: "Reach out to our team through the contact form or our dedicated partnership email. We welcome collaborations that strengthen food systems."
+        q: "How does using the YucaChain app increase my income as farmer?",
+        a: "By using the app, you bypass exploitative middlemen and connect directly with industrial factories. The ability to store your harvest in a YucaVault means you no longer have to sell at low prices just to avoid rot; you can wait for the best market offer."
+    },
+    {
+        q: "Do I need a smartphone to participate?",
+        a: "While the YucaChain app is built for smartphones, our YucaHub managers are trained to assist farmers who use basic feature phones to ensure no one is left out of the digital marketplace."
+    },
+    {
+        q: "Is there a fee to use the storage or the app?",
+        a: "We use a sustainability-driven cost-recovery model. Farmers pay a small service fee for storage or a transaction commission when they successfully sell their produce through the platform, ensuring the infrastructure remains maintained for the community."
+    },
+    {
+        q: "How do you guarantee the quality of the cassava delivered?",
+        a: "Every ton of cassava passing through a YucaHub undergoes a certification process. We provide end-to-end traceability, allowing you to see exactly when and where the cassava was harvested and how it was stored."
+    },
+    {
+        q: "Can I schedule recurring bulk deliveries?",
+        a: "Yes. The YucaChain app allows industrial processors to manage their supply chains in real-time, matching their factory demand with the live inventory available in our YucaVaults and YucaHubs."
+    },
+    {
+        q: "Is my data safe on the YucaChain platform?",
+        a: "Yes. We prioritize transparency and security. The platform creates a digital footprint of your transactions, which can also help farmers build the credit history needed to access formal loans and insurance."
+    },
+    {
+        q: "What is the long-term goal of the project?",
+        a: "We aim to scale this model from a TRL 4 prototype to a TRL 6 real-world operational system within 12 months. Our vision is to create a safer, more reliable, and waste-free cassava value chain across Nigeria and the broader African continent. Maybe then, we can transfer impact to other crops, Bi Idhni Llah."
     }
 ];
 

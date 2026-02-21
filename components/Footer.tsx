@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="col-span-1 md:col-span-2">
                         <h3 className="text-3xl font-bold text-green-500 mb-6">YucaChain</h3>
                         <p className="text-gray-400 max-w-sm leading-relaxed text-lg">
-                            YucaChain Limited is building Africa’s most integrated cassava ecosystem through technology, finance, and structured supply networks.
+                            We are building an integrated digital ecosystem transforming cassava farming, processing, trade, and export. Through integrated IoT storage and decentralized infrastructure, we make agricultural trade reliable, transparent, and significantly more profitable for Africa.
                         </p>
                     </div>
 
