@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Database, Fingerprint, History, LockKeyhole, Smartphone, Network, Building2, LeafyGreen, ShieldCheck, ShoppingCart, Truck, CheckCircle, Activity, Box } from "lucide-react";
+import { Database, Fingerprint, LockKeyhole, Smartphone, Network, Building2, LeafyGreen, ShieldCheck, ShoppingCart, Truck, CheckCircle, Activity, Box } from "lucide-react";
 
 const componentsList = [
     { name: "YucaChain", desc: "Digital Platform – Web & Mobile", icon: Smartphone },
