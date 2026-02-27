@@ -14,7 +14,7 @@ export default function BackedBy() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight">Backed By</h2>
                 <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-                    YucaChain Limited has received support and recognition from global institutions that believe in scalable agricultural innovation.
+                    We are supported by, and in collaboration with, leading organizations and institutions in the agricultural and technology sectors.
                 </p>
 
                 <div className="flex flex-wrap justify-center items-center gap-12 sm:gap-24 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">

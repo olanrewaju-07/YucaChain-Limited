@@ -11,9 +11,11 @@ export default function Header() {
 
     const navLinks = [
         { name: "About", href: "about" },
+        { name: "Our Story", href: "story" },
         { name: "Products", href: "products" },
         { name: "Team", href: "team" },
         { name: "FAQ", href: "faq" },
+        { name: "News", href: "news" },
     ];
 
     const scrollToSection = (id: string) => {

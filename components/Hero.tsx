@@ -40,7 +40,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
                     className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-10 max-w-4xl mx-auto leading-relaxed font-light drop-shadow-md"
                 >
-                    We are building an integrated digital ecosystem transforming cassava farming, processing, trade, and export.Through integrated IoT storage and decentralized infrastructure, we make agricultural trade reliable, transparent, and significantly more profitable for Africa.
+                    We are building an integrated digital ecosystem transforming cassava farming, processing, trade, and export through integrated IoT storage and decentralized infrastructure, we make agricultural trade reliable, transparent, and significantly more profitable for Africa.
                 </motion.p>
 
                 <motion.div
@@ -57,7 +57,6 @@ export default function Hero() {
                             Explore Our Ecosystem
                         </Button>
                     </motion.div>
-
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                         <Button
                             onClick={() => window.open('https://chat.whatsapp.com/JXaHxCV3G489gJHMC4OeXR', '_blank')}

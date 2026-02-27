@@ -17,8 +17,6 @@ export default function Partners() {
         { name: "NCIA", src: "/NCIA.png" },
         { name: "IHS", src: "/ihs-logo.png" },
         { name: "CcHub", src: "/Cchub.png" }
-
-
     ];
 
     return (

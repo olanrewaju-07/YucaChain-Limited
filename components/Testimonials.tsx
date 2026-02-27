@@ -31,9 +31,9 @@ export default function Testimonials() {
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 overflow-hidden">
                 <div className="text-center max-w-2xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-4 text-white">What Farmers Say About Us</h2>
+                    <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-4 text-white">What Others Say About Us</h2>
                     <p className="text-lg text-green-100/80">
-                        Our impact is measured by the success of the farmers we serve.
+                        Our impact is measured by the success of the people we serve: farmers, processors, logistics providers, organizations, and institutions.
                     </p>
                 </div>
 

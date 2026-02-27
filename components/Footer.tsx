@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -8,9 +9,31 @@ export default function Footer() {
 
                     <div className="col-span-1 md:col-span-2">
                         <h3 className="text-3xl font-bold text-green-500 mb-6">YucaChain</h3>
-                        <p className="text-gray-400 max-w-sm leading-relaxed text-lg">
+                        <p className="text-gray-400 max-w-sm leading-relaxed text-lg mb-8">
                             We are building an integrated digital ecosystem transforming cassava farming, processing, trade, and export. Through integrated IoT storage and decentralized infrastructure, we make agricultural trade reliable, transparent, and significantly more profitable for Africa.
                         </p>
+                        <div className="flex space-x-5">
+                            <a href="https://x.com/yucachain" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-green-600 transition-all duration-300">
+                                <span className="sr-only">Twitter</span>
+                                <Twitter className="h-5 w-5" />
+                            </a>
+                            <a href="https://www.linkedin.com/company/yucachain/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-green-600 transition-all duration-300">
+                                <span className="sr-only">LinkedIn</span>
+                                <Linkedin className="h-5 w-5" />
+                            </a>
+                            <a href="https://www.facebook.com/share/1Byyq5Jupq/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-green-600 transition-all duration-300">
+                                <span className="sr-only">Facebook</span>
+                                <Facebook className="h-5 w-5" />
+                            </a>
+                            <a href="https://www.instagram.com/yucachain" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-green-600 transition-all duration-300">
+                                <span className="sr-only">Instagram</span>
+                                <Instagram className="h-5 w-5" />
+                            </a>
+                            <a href="https://www.youtube.com/@YucaChainLtd" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-green-600 transition-all duration-300">
+                                <span className="sr-only">YouTube</span>
+                                <Youtube className="h-5 w-5" />
+                            </a>
+                        </div>
                     </div>
 
                     <div>
@@ -19,6 +42,7 @@ export default function Footer() {
                             <li><Link href="#about" className="text-gray-400 hover:text-green-400 transition-colors">About Us</Link></li>
                             <li><Link href="#story" className="text-gray-400 hover:text-green-400 transition-colors">Our Story</Link></li>
                             <li><Link href="#team" className="text-gray-400 hover:text-green-400 transition-colors">Join Us</Link></li>
+                            <li><Link href="#news" className="text-gray-400 hover:text-green-400 transition-colors">News</Link></li>
                             <li><Link href="#contact" className="text-gray-400 hover:text-green-400 transition-colors">Contact</Link></li>
                         </ul>
                     </div>

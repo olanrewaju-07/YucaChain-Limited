@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Database, Fingerprint, LockKeyhole, Smartphone, Network, Building2, LeafyGreen, ShieldCheck, ShoppingCart, Truck, CheckCircle, Activity, Box } from "lucide-react";
+import { Database, Fingerprint, LockKeyhole, Smartphone, Network, Building2, LeafyGreen, ShieldCheck, ShoppingCart, Truck, CheckCircle, Activity, Box, LeafIcon, Sprout, Carrot, Package2, Workflow } from "lucide-react";
 
 const componentsList = [
     { name: "YucaChain", desc: "Digital Platform – Web & Mobile", icon: Smartphone },
@@ -10,14 +10,14 @@ const componentsList = [
 ];
 
 const lifecycleSteps = [
-    { name: "Created", icon: Fingerprint },
-    { name: "Harvested", icon: LeafyGreen },
+    { name: "Planted", icon: Sprout },
+    { name: "Harvested", icon: Carrot },
     { name: "Assigned to Vault", icon: Building2 },
     { name: "Stored", icon: Box },
-    { name: "Reserved", icon: LockKeyhole },
     { name: "Sold", icon: ShoppingCart },
-    { name: "Picked Up", icon: Truck },
-    { name: "Closed", icon: CheckCircle }
+    { name: "Processed", icon: Workflow },
+    { name: "Packaged", icon: Package2 },
+    { name: "Picked Up", icon: Truck }
 ];
 
 const architectureFeatures = [
@@ -192,8 +192,8 @@ export default function Ecosystem() {
 
                 {/* The Lifecycle Banner */}
                 <div className="text-center mb-12">
-                    <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">The Asset Lifecycle</h3>
-                    <p className="text-gray-600 dark:text-gray-300">Total traceability from emergence to closure.</p>
+                    <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">The Product Lifecycle</h3>
+                    <p className="text-gray-600 dark:text-gray-300">Enhancing traceability and food safety  by tracking from origin to packaged state.</p>
                 </div>
 
                 <div className="relative">

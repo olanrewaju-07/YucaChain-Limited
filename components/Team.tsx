@@ -7,7 +7,7 @@ const teamData = [
     {
         name: "Abdulmumin Solihu",
         role: "Chief Executive Officer",
-        bio: "Agricultural and Biosystems Engineer with a lot of experience in agritech. Abdulmumin leads our strategic vision to transform Africa's cassava supply chain into a digital-first ecosystem.",
+        bio: "Agricultural & Biosystems Engineer with years of experience in smart agriculture, data analytics, and agribusiness innovation. A multi-award-winning innovator with proven capacity to lead cross-functional teams.",
         image: "abdulmumin.png",
         linkedin: "https://www.linkedin.com/in/abdulmuminsolihu",
         email: "mailto:abdulmuminsolihu@gmail.com",
@@ -16,7 +16,7 @@ const teamData = [
     {
         name: "Abdulbasit Issa Titilope",
         role: "Chief Technology Officer",
-        bio: "An Agricultural and Biosystems Engineer with a strong background in software development. Abdulbasit is passionate about leveraging technology to solve real-world problems in the agricultural sector.",
+        bio: "Experienced Frontend Engineer (React.js, JavaScript, TypeScript) with years of experience developing scalable edtech and e-commerce platforms. Responsible for system architecture and platform scalability.",
         image: "/abdulbasit.jpeg",
         linkedin: "https://www.linkedin.com/in/abdulbasit-issa",
         email: "mailto:issabasheet@gmail.com",
@@ -25,7 +25,7 @@ const teamData = [
     {
         name: "Shukurah Sulaimon",
         role: "Chief Marketing Officer",
-        bio: "Food technologist and communications expert leading our brand identity. She scales our impact and outreach across rural and industrial markets.",
+        bio: "Food Science & Technology professional specializing in food safety, quality control, and product development, with experience blending scientific research and communication",
         image: "/shukroh1.jpeg",
         linkedin: "https://www.linkedin.com/in/shukurah-sulaimon-41aa76237",
         email: "mailto:mojisolasulaimon563@gmail.com",

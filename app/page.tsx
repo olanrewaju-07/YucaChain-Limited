@@ -10,6 +10,7 @@ import Partners from "@/components/Partners";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import YucaNews from "@/components/yucanews";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Advisors />
       <Partners />
       <FAQ />
+      <YucaNews />
       <ContactForm />
       <Footer />
     </main>

@@ -13,7 +13,7 @@ const products = [
             "Farm registration",
             "Yield tracking",
             "Market price visibility",
-            "Smart contract agreements",
+            "End-to-end value chain actors bridge",
             "Direct buyer connection"
         ],
         cta: "Download App",
@@ -122,7 +122,7 @@ export default function ProductSection() {
                                     {product.id === "yucachain" && (
                                         <div className="w-full h-full overflow-hidden rounded-xl">
                                             <img
-                                                src="/YucaChains.jpg"
+                                                src="/YucaApp.png"
                                                 alt="YucaChain App"
                                                 className="w-full h-full object-cover object-center drop-shadow-md hover:scale-105 transition-transform duration-500"
                                             />

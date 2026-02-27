@@ -6,7 +6,7 @@ import { Linkedin, Mail } from "lucide-react";
 const advisors = [
     {
         name: "Engr. (Dr.) Olanrewaju Taofiq Olayinka",
-        role: "Extension Specialist and Lecturer",
+        role: "Extension Specialist",
         org: "National Agricultural Extension and Research Liaison Services (NAERLS)",
         value: "Guiding our outreach approach to enhance farmer education, adoption of digital tools, and the effective delivery of agricultural extension services.",
         image: "/olanrewaju.jpeg",
@@ -15,11 +15,20 @@ const advisors = [
     },
     {
         name: "Engr. (Dr.) Michael Ayodele Omodara",
-        role: "Assistant Director, Research",
+        role: "Head of post Harvest Losses",
         org: "Nigerian Stored Products Research Institute (NSPRI)",
         value: "Providing expert insights into post-harvest crop management, storage technologies, and strategies to minimize losses across the value chain.",
         image: "/omolara.jpeg",
         linkedin: "https://linkedin.com/",
+        email: "mailto:maomodara@nspri.gov.ng"
+    },
+    {
+        name: "Dr. Wasiu Awoyale",
+        role: "Post-Harvest Consultant at IITA",
+        org: "The International Institute of Tropical Agriculture (IITA)",
+        value: "Dr. Awoyale provides expert insights into post-harvest crop management, innovative storage technologies, and practical strategies aimed at minimizing losses across the agricultural value chain.",
+        image: "/wasiu.jpeg",
+        linkedin: "https://www.linkedin.com/in/awoyale-wasiu-phd-b0a30838",
         email: "mailto:maomodara@nspri.gov.ng"
     },
 ];
@@ -31,7 +40,7 @@ export default function Advisors() {
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-4">Strategic Advisors</h2>
                     <p className="text-lg text-gray-600 dark:text-gray-300">
-                        Our advisors bring global experience in agriculture, finance, and innovation.
+                        Our advisors bring global experience in agriculture, finance, and innovation from the academic background as well as the industry.
                     </p>
                     <div className="mt-8 h-1.5 w-24 bg-green-600 mx-auto rounded-full"></div>
                 </div>
