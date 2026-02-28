@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import OurStory from "@/components/OurStory";
 import Ecosystem from "@/components/Ecosystem";
 import ProductSection from "@/components/ProductSection";
 import ComingSoon from "@/components/ComingSoon";
@@ -17,6 +18,7 @@ export default function Home() {
     <main className="min-h-screen bg-white dark:bg-background">
       <Header />
       <Hero />
+      <OurStory />
       <Ecosystem />
       <ProductSection />
       <ComingSoon />
