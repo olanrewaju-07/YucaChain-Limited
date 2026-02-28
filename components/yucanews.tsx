@@ -3,8 +3,20 @@
 import { ExternalLink, Link as LinkIcon } from "lucide-react";
 import { useState, useEffect } from "react";
 
+interface PreviewData {
+    images?: string[];
+    image?: { url: string };
+    logo?: { url: string };
+    favicons?: string[];
+    title?: string;
+    description?: string;
+    siteName?: string;
+    publisher?: string;
+    url?: string;
+}
+
 function LinkPreview({ url }: { url: string }) {
-    const [data, setData] = useState<any>(null);
+    const [data, setData] = useState<PreviewData | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

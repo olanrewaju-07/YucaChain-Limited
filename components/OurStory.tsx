@@ -18,7 +18,7 @@ const countryData = [
             "80–90% of cassava in Nigeria is consumed locally as food (garri, fufu, lafun).",
             "Less than 10% is processed into industrial-grade starch or HQCF.",
             "30–40% post-harvest loss due to poor storage and delayed processing.",
-            "Nigeria imports industrial starch annually despite being the world’s largest cassava producer."
+            "Nigeria imports industrial starch annually despite being the worlds largest cassava producer."
         ],
         gap: {
             title: "Industrial Gap",
@@ -26,7 +26,7 @@ const countryData = [
         },
         opportunity: {
             title: "Hidden Opportunity",
-            content: "If just 20% of Nigeria’s production were industrialized efficiently, it could unlock billions in non-oil GDP contribution."
+            content: "If just 20% of Nigerias production were industrialized efficiently, it could unlock billions in non-oil GDP contribution."
         }
     },
     {
@@ -145,7 +145,7 @@ export default function OurStory() {
                     <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto mb-12">
                         Africa produces over 208 million tonnes of cassava annually — feeding 300 million people.
                         Yet post-harvest losses, poor infrastructure, and limited industrial processing keep the
-                        continent's most vital crop far below its true potential.
+                        continent&apos;s most vital crop far below its true potential.
                     </p>
 
                     {/* Stats Box */}
@@ -175,23 +175,19 @@ export default function OurStory() {
                 </div>
 
                 {/* Map Area */}
-                <div className="w-full max-w-5xl mx-auto mb-20 relative flex justify-center items-center py-10 px-4 min-h-[300px]">
+                <div className="w-full max-w-3xl mx-auto mb-20 relative flex justify-center items-center py-6 px-3 min-h-[300px] border border-gray-200 dark:border-gray-800/80 bg-white dark:bg-[#0d131f] hover:bg-gray-50 dark:hover:bg-[#111822] transition-all cursor-pointer group shadow-lg">
                     {/* 👇 YOU WILL REPLACE THIS IMAGE TAG WITH YOUR MAP IMAGE 👇 */}
                     <img
-                        src=""
+                        src="/AfricaMap.png"
                         alt="Map showing top African Cassava Producers"
-                        className="max-w-full h-auto object-contain relative z-10 w-full md:w-3/4 mx-auto hidden dark:block"
+                        className="max-w-full h-auto object-contain relative z-10 w-full md:w-3/4 mx-auto hidden dark:block rounded-3xl"
                     />
                     <img
-                        src=""
+                        src="/AfricaMap.png"
                         alt="Map showing top African Cassava Producers"
-                        className="max-w-full h-auto object-contain relative z-10 w-full md:w-3/4 mx-auto block dark:hidden"
+                        className="max-w-full h-auto object-contain relative z-10 w-full md:w-3/4 mx-auto block dark:hidden rounded-3xl"
                     />
 
-                    {/* Placeholder hint for dev - remove when image is added */}
-                    <div className="absolute inset-0 border border-gray-300 dark:border-gray-800/50 border-dashed rounded-3xl flex items-center justify-center bg-gray-50/50 dark:bg-gray-900/20 z-0">
-                        <p className="text-gray-500 dark:text-gray-600 italic">Replace {"<img src=\"\" />"} with your map image in components/OurStory.tsx (We added two tags so you can specify an image for dark and light mode if you wish)</p>
-                    </div>
                 </div>
 
                 {/* Cards Section */}
