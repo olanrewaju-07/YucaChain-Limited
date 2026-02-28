@@ -1,6 +1,6 @@
 "use client";
 
-import { Twitter, Linkedin, Facebook, ArrowRight, ExternalLink, Link as LinkIcon } from "lucide-react";
+import { ExternalLink, Link as LinkIcon } from "lucide-react";
 import { useState, useEffect } from "react";
 
 function LinkPreview({ url }: { url: string }) {
