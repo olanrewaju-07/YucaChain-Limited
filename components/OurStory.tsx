@@ -170,7 +170,7 @@ export default function OurStory() {
 
                     <div className="flex items-center justify-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-6">
                         <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                        <p>Click any highlighted country on the map or a button below</p>
+                        <p>Click any highlighted country on the button below</p>
                     </div>
                 </div>
 
