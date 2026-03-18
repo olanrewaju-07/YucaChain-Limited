@@ -32,6 +32,15 @@ const teamData = [
         twitter: "https://x.com/Shuab234"
     },
     {
+        name: "Oyebanji Aishat",
+        role: "Chief Operating Officer",
+        bio: "Strategic operations leader focused on scaling our agricultural supply chain workflows and driving operational excellence across all initiatives.",
+        image: "oyebanjiaishat.jpeg",
+        linkedin: "https://www.linkedin.com/in/oyebanji-aishat-197a6aa7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "mailto: oyebanjiaishat703@gmail.com",
+        twitter: ""
+    },
+    {
         name: "Abiola Khashiah",
         role: "Human Resource Manager",
         bio: "Dedicated to building a thriving workplace culture. Abiola oversees talent acquisition, organizational development, and employee welfare.",
@@ -48,6 +57,15 @@ const teamData = [
         linkedin: "https://www.linkedin.com/in/ridwan-ibrahim-7585193b2",
         email: " mailto:Ibrahimridwan3002@gmail.com",
         twitter: "https://x.com/ridwani11075762?s=11"
+    },
+    {
+        name: "Maryam Kaaz",
+        role: "Operations & Project Coordination Officer",
+        bio: "Project management professional focused on orchestrating seamless workflows and coordinating on-the-ground deployments to ensure the success of our agricultural initiatives.",
+        image: "maryamkaz.jpeg",
+        linkedin: "https://www.linkedin.com/in/maryam-kaaz-457233244",
+        email: "mailto: maryamkasim764@gmail.com",
+        twitter: "https://x.com/MaryamKaaz"
     },
     {
         name: "Damilare Muhammad",
@@ -86,13 +104,22 @@ const teamData = [
         twitter: "https://www.x.com/ola_abdulganiy"
     },
     {
-        name: "Sikiru Oluwakemi",
-        role: "Structural Engineer",
-        bio: "Engineering professional focused on designing robust infrastructure and physical assets that support our on-the-ground agricultural operations.",
-        image: "sikiru.jpeg",
-        linkedin: "https://www.linkedin.com/in/sikiru-oluwakemi-96a5b6274",
-        email: "mailto: rashidasikiru11@gmail.com",
-        twitter: "https://www.x.com/sikiru_oluwakemi"
+        name: "Testimony Alade",
+        role: "CAD Designer",
+        bio: "Technical design professional focused on drafting precise 3D models and engineering blueprints that bring our innovative agricultural hardware to life.",
+        image: "testimonyalade.jpeg",
+        linkedin: "https://www.linkedin.com/in/testimony-alade-ba3844239?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+        email: "mailto: testimonyalade191@gmail.com",
+        twitter: ""
+    },
+    {
+        name: "Habeeb Abubakar",
+        role: "Embedded System Engineer",
+        bio: "Engineering professional focused on developing robust embedded systems and intelligent hardware solutions that support our on-the-ground agricultural operations.",
+        image: "abubakar.jpeg",
+        linkedin: "https://www.linkedin.com/in/habeeb-abubakar01",
+        email: "mailto: habeebthedev@gmail.com",
+        twitter: "https://x.com/habeebthedev"
     },
 ];
 
