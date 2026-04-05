@@ -20,22 +20,6 @@ const lifecycleSteps = [
     { name: "Picked Up", icon: Truck }
 ];
 
-const architectureFeatures = [
-    "Asset Tracking",
-    "Batch ID System",
-    "Timestamp Logs",
-    "Status Updates",
-    "Multi-role Permissions"
-];
-
-const appCapabilities = [
-    "Track cassava into YucaVault",
-    "Monitor storage duration",
-    "Show condition updates",
-    "Trigger pickup notifications",
-    "Log buyer transactions",
-    "Record traceability history"
-];
 
 export default function Ecosystem() {
     return (
@@ -139,55 +123,6 @@ export default function Ecosystem() {
                             <div className="absolute top-4 right-4 w-3 h-3 bg-green-600 rounded-full" />
                         </motion.div>
                     ))}
-                </div>
-
-                {/* App Connectivity & Capabilities Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24 items-center">
-                    <motion.div
-                        initial={{ opacity: 0, x: -40 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">How YucaChain Interconnects</h3>
-                        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                            The application is not standalone. It acts as the neural network for your physical assets, providing real-time synchronization between the farm, the vault, and the hub.
-                        </p>
-                        <ul className="space-y-4">
-                            {appCapabilities.map((cap, i) => (
-                                <li key={i} className="flex items-center text-gray-700 dark:text-gray-300 font-medium">
-                                    <Activity className="w-5 h-5 text-green-500 mr-4 flex-shrink-0" />
-                                    <span className="text-lg">{cap}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </motion.div>
-
-                    <motion.div
-                        initial={{ opacity: 0, x: 40 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6 }}
-                        className="bg-gray-900 p-8 sm:p-12 rounded-3xl shadow-2xl text-white border border-gray-800 relative overflow-hidden group"
-                    >
-                        <div className="absolute top-[-50%] right-[-50%] w-[200%] h-[200%] bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-
-                        <div className="flex items-center space-x-4 mb-8">
-                            <Database className="w-8 h-8 text-green-400" />
-                            <h4 className="text-2xl font-bold">Architectural Requirements</h4>
-                        </div>
-                        <p className="text-gray-400 mb-8 text-lg">
-                            To support this vast ecosystem, our data architecture strictly enforces:
-                        </p>
-                        <div className="grid grid-cols-2 gap-4">
-                            {architectureFeatures.map((feat, i) => (
-                                <div key={i} className="flex items-center p-4 bg-gray-800/50 rounded-xl border border-gray-700/50 hover:bg-gray-800 transition-colors">
-                                    <ShieldCheck className="w-5 h-5 text-green-400 mr-3 shrink-0" />
-                                    <span className="font-semibold text-sm sm:text-base">{feat}</span>
-                                </div>
-                            ))}
-                        </div>
-                    </motion.div>
                 </div>
 
                 {/* The Lifecycle Banner */}

@@ -90,6 +90,10 @@ function LinkPreview({ url }: { url: string }) {
 
 const newsItems = [
     {
+        link: "https://foodsafety4africa.eu/open-call/open-call-1-subprojects/yuca-cvh/",
+        color: "text-blue-500"
+    },
+    {
         link: "https://www.linkedin.com/posts/abdulmuminsolihu_worldcassavaday-cassavachangemakers-agbeyewafarms-activity-7349176017531367424-MQzp?utm_source=share&utm_medium=member_android&rcm=ACoAADTW25MB9flAtY-RfaCfuN7IdZ4qoZJJkZQ",
         color: "text-blue-400"
     },
