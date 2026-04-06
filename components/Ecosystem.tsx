@@ -28,7 +28,7 @@ export default function Ecosystem() {
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
                 {/* Header Section */}
-                <div className="text-center max-w-3xl mx-auto mb-20">
+                <div className="text-center max-w-5xl mx-auto mb-20">
                     <motion.h2
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -45,15 +45,29 @@ export default function Ecosystem() {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="h-1.5 w-24 bg-green-600 mx-auto rounded-full mb-8"
                     />
-                    <motion.p
+                    <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.3 }}
-                        className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed"
+                        className="text-lg md:text-xl text-gray-600 dark:text-gray-300 w-full text-left leading-relaxed space-y-5"
                     >
-                        A closed-loop system designed to stabilize supply, verify quality, and eliminate post-harvest losses.
-                    </motion.p>
+                        <p>
+                            Nigeria produces more cassava than any other country on earth. Yet a significant portion of every harvest never reaches a market, a processor, or a table. It spoils on roadsides, rots in makeshift storage, or sells for a fraction of its real value because a farmer had no choice but to accept whatever price was offered that morning.
+                        </p>
+                        <p>
+                            The problem is not production. Nigeria&apos;s farmers are productive, hardworking, and experienced. The problem is everything that happens after harvest. The infrastructure gap between the farm gate and the market causes value to leak out at every single stage of the journey. Cassava that could feed families, supply factories, and earn foreign exchange is instead lost to spoilage, poor handling, and a broken chain of coordination between the people who grow food and the people who need it.
+                        </p>
+                        <p className="text-green-700 dark:text-green-400 font-semibold text-xl md:text-2xl text-center">
+                            YucaChain is building the infrastructure to close that gap.
+                        </p>
+                        <p>
+                            The YucaChain ecosystem is a set of integrated products and services, each one designed to serve a specific stage of the agricultural value chain. They can work independently. A farmer can use just the app. A processor can use just the hub. But when the full ecosystem is connected, from digital platform to cold storage to processing to food production to export, the entire value chain becomes more efficient, more transparent, and more profitable for every person in it.
+                        </p>
+                        <p className="font-medium text-gray-700 dark:text-gray-200">
+                            This is what we are building, and this is why each part of it matters.
+                        </p>
+                    </motion.div>
                 </div>
 
                 {/* Animated Ecosystem Diagram Layer */}
